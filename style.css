@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana;
+    font-size: 2em
+}
+#myH1{
+    text-align: center;
+}
+
+#numberLabel{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: Helvetica;
+    background-color: whitesmoke;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 2em;
+    color: greenyellow;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+.buttons:hover{
+    background-color: rgb(94, 83, 83);
+}
+
