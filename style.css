@@ -1,17 +1,29 @@
 body{
-    font-family: Verdana;
-    font-size: 2em
-}
-#myH1{
     text-align: center;
+    font-family: Verdana;
 }
 
-#numberLabel{
-    display: block;
+#myH1{
     text-align: center;
     font-size: 2em;
-    font-family: Helvetica;
+}
+
+#label{
     background-color: whitesmoke;
+    font-size: 2em;
+    font-family: Courier New;
+}
+#resultLabel{
+    background-color: whitesmoke;
+    font-size: 2em;
+    font-family: Courier New;
+}
+
+#numInput{
+    font-size: 2em;
+    color:aliceblue;
+    background-color: black;
+    font-family: Segoe UI;
 }
 
 #buttonContainer{
@@ -20,8 +32,8 @@ body{
 .buttons{
     padding: 10px 20px;
     font-size: 2em;
-    color: greenyellow;
-    background-color: black;
+    color: rgb(14, 15, 12);
+    background-color: whitesmoke;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25;
@@ -29,4 +41,3 @@ body{
 .buttons:hover{
     background-color: rgb(94, 83, 83);
 }
-
